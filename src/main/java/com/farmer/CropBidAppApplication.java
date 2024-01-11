@@ -8,6 +8,7 @@ public class CropBidAppApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(CropBidAppApplication.class, args);
+		
 	}
 
 }
