@@ -29,7 +29,7 @@ public class FarmerRegistration {
 	@Column(name="F_Bank_Ac")
 	private Long bankAccountNo;
 	@Column(name="F_IFSC")
-	private Long ifsc;
+	private Long ifscNo;
 	@Column(name="F_Aadhar_No")
 	private Long aadharNo;
 	@Column(name="F_Aadhar_No")
@@ -85,10 +85,10 @@ public class FarmerRegistration {
 		this.bankAccountNo = bankAccountNo;
 	}
 	public Long getIfsc() {
-		return ifsc;
+		return ifscNo;
 	}
 	public void setIfsc(Long ifsc) {
-		this.ifsc = ifsc;
+		this.ifscNo = ifsc;
 	}
 	public Long getAadharNo() {
 		return aadharNo;
